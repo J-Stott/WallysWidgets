@@ -1,0 +1,35 @@
+.hero-text {
+  text-align: center;
+  color: #ffffff;
+  max-width: 30rem;
+}
+
+.hero-heading {
+  margin: 1rem 0;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    color: #30363b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #cfcfcf; 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .hero-text {
+    text-align: left;
+  }
+}

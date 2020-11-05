@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: #D0D0D0;
+    padding-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 860px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+}

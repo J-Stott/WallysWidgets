@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-right: 3rem;
+}
+
+.heading {
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 860px) {
+    .heading {
+        cursor: auto;
+    }
+}

@@ -1,0 +1,17 @@
+.section-wrapper {
+    max-width: 50%;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .section-wrapper {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-wrapper {
+        max-width: 900px;
+    }
+}

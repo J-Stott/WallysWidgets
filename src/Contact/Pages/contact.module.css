@@ -1,0 +1,62 @@
+.container{
+    min-height: calc(100vh - 242px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 0.25rem 0;
+  border: 1px solid #008cff;
+}
+
+.form textarea {
+  resize: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+}
+
+.form textarea::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: small;
+}
+
+.form button {
+  width: 100px;
+  height: 30px;
+  background-color: #008cff;
+  color: #ffffff;
+  border: 1px solid #008cff;
+  border-radius: 4px;
+  align-self: flex-end;
+  transition: 0.3s;
+}
+
+.form button:hover{
+    background-color: #289dfd;
+    border: 1px solid #289dfd;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .text {
+    text-align: left;
+  }
+}

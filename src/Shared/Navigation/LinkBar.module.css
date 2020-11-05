@@ -1,0 +1,12 @@
+.main-container {
+    margin-left: 0;
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .main-container {
+        margin-left: auto;
+        display: block;
+    }
+}

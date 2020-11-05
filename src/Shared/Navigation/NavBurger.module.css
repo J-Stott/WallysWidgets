@@ -1,0 +1,35 @@
+.burger-container{
+    width: 2.5rem;
+    height: 2.0rem;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    transition: 0.5s;
+}
+
+.burger-container div {
+    width: 1.75rem;
+    height: 0.15rem;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.burger-container:hover{
+    background-color: #ffffff;
+}
+
+.burger-container:hover div{
+    background-color: #222222;
+}
+
+@media (min-width: 768px) {
+    .burger-container {
+        display: none;
+    }
+}
